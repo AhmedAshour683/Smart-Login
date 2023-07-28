@@ -1,0 +1,40 @@
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+
+    <div class="container position-relative">
+
+    <div class="container w-75 mt-5 shadow-lg login text-center px-5 pb-5 border borde-2 border-primary">
+        <h1 class="mt-5 text-primary">Smart Login System</h1>
+        <input type="email" class="form-control my-4" placeholder="Enter Your Email" id="emailin">
+        <input type="password" class="form-control my-4" placeholder="Enter Your Password" id="passin">
+        <button class="btn btn-outline-primary mb-5 mt-3 d-block m-auto w-100" id="signinButton">Login</button>
+        <span class="text-white mx-1">Don’t have an account?</span><a href="#" class="fw-bold text-decoration-none" id="signup"> Sign Up</a>
+    </div>
+
+    <div class="container w-75 shadow-lg signup text-center mt-5 px-5 pb-5 border borde-2 border-primary sign-up d-none">
+        <h1 class="mt-5 text-primary">Smart Login System</h1>
+        <input type="text" class="form-control my-4" placeholder="Enter Your Name" id="name">
+        <input type="email" class="form-control my-4" placeholder="Enter Your Email" id="emailup">
+        <input type="password" class="form-control my-4" placeholder="Enter Password" id="passup">
+        <button class="btn btn-outline-primary mb-5 mt-3 d-block m-auto w-100" id="signupButton">Sign Up</button>
+        <span class="text-white mx-1">You have an account?</span><a href="#" class="fw-bold text-decoration-none" id="signin"> Sign in</a>
+    </div>
+
+    </div>
+
+
+    <div class="w-100 position-absolute top-0 start-0 px-2 d-none" id="home">
+        
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/mine.js"></script>
+</body>
+</html>
